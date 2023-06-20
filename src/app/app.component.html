@@ -2,7 +2,7 @@
   <mat-sidenav #sidenav>
     <mat-nav-list (click)="sidenav.close()">
       <button mat-icon-button (click)="sidenav.close()">
-        <mat-icon>close</mat-icon>
+        <mat-icon >keyboard_backspace</mat-icon>
       </button>
 
       <a mat-list-item routerLink="/">
@@ -25,6 +25,10 @@
 
   </mat-toolbar>
 
-  <router-outlet></router-outlet>
+  <div class="container">
+    <router-outlet></router-outlet>
+  </div>
 
 </mat-sidenav-container>
+
+

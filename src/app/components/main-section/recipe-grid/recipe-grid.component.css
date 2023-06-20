@@ -1,0 +1,4 @@
+.recipe-container {
+    columns: 4 0.25vw;
+    column-gap: 1em;
+}
